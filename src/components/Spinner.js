@@ -22,7 +22,7 @@ The text of the button can be derived from the value of that one slice of state.
   The 'spinnerOn' slice should be initialized to true so the spinner is visible on page load.
 
 STEP 2:
-  This is called a logical expression. If the expressions on both sides of the '&&' are truthy,
+  [x]This is called a logical expression. If the expressions on both sides of the '&&' are truthy,
   the one on the right becomes the value of the whole line. If an expression on either side of the '&&'
   is falsy, the one on the left becomes the value of the whole line. It's a neat little trick to render
   a React element (in this case the spinner) conditionally: only if the variable on the left is truthy.
@@ -30,10 +30,10 @@ STEP 2:
   Replace the hard-coded 'true' with the variable that keeps track of whether spinner is on or not.
 
 STEP 3:
-  Use a ternary expression inside the text of the button, to render "Hide" or "Show" depending on the value of 'spinnerOn'.
+  [x]Use a ternary expression inside the text of the button, to render "Hide" or "Show" depending on the value of 'spinnerOn'.
 
 STEP 4:
-  This click handler needs to toggle the spinner by setting "whether on" to be the opposite of what it currently is.
+  [x]This click handler needs to toggle the spinner by setting "whether on" to be the opposite of what it currently is.
   Do you remember the operator we use to do "not"?
 */
 
